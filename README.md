@@ -30,7 +30,7 @@ L’objectif est d’identifier des tendances communes, des moments de décorré
    Ouvrir le fichier .ipynb dans Google Colab.
    Exécuter les cellules pour obtenir les graphiques et analyses
    
-📄 Licence
+## 📄 Licence
 Projet open-source sous licence MIT.
 
 📬 Contact : Si tu as des suggestions ou questions, ouvre une issue ou contacte-moi !
