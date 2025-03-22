@@ -21,10 +21,10 @@ L’objectif est d’identifier des tendances communes, des moments de **décorr
 
 ## 📂 Structure du projet
 
-📁 data/        → Contiendra les fichiers de données extraites
-📁 notebooks/   → Contiendra les analyses et visualisations en Jupyter Notebook
-📁 scripts/     → Contiendra les scripts Python d’extraction et d’analyse
-📄 README.md    → Ce fichier !
+- 📁 data/        → Contiendra les fichiers de données extraites
+- 📁 notebooks/   → Contiendra les analyses et visualisations en Jupyter Notebook
+- 📁 scripts/     → Contiendra les scripts Python d’extraction et d’analyse
+- 📄 README.md    → Ce fichier !
 
 
 ## 🚀 Comment exécuter le projet
