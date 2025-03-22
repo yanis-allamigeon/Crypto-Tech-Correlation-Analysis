@@ -21,13 +21,13 @@ L’objectif est d’identifier des tendances communes, des moments de **décorr
 
 ## 📂 Structure du projet
 
-```bash
 📁 data/        → Contiendra les fichiers de données extraites
 📁 notebooks/   → Contiendra les analyses et visualisations en Jupyter Notebook
 📁 scripts/     → Contiendra les scripts Python d’extraction et d’analyse
 📄 README.md    → Ce fichier !
 
-# 🚀 Comment exécuter le projet
+
+## 🚀 Comment exécuter le projet
 
 - 1️⃣ Clonez le repo :
 git clone https://github.com/ton-github/crypto-tech-correlation.git
@@ -42,5 +42,4 @@ Projet open-source sous licence MIT
 
 ## 📬 Contact
 
-Si tu as des suggestions ou questions, ouvre une issue ou contacte-moi !
-Yanisallamigeon92@gmail.com
+Si tu as des suggestions ou questions, ouvre une issue ou contacte-moi : Yanisallamigeon92@gmail.com
