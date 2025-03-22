@@ -31,10 +31,14 @@ if __name__ == "__main__":
     df = fetch_data(assets)
 
     # Vérifier que le dossier 'data/' existe, sinon le créer
-    os.makedirs("../data", exist_ok=True)
+    os.makedirs("data", exist_ok=True)
+    df.to_csv("data/market_data.csv")
+
 
     # Sauvegarde en CSV
     df.to_csv("../data/market_data.csv")
 
     print("Données téléchargées et enregistrées dans data/market_data.csv")
+    print(df.head())  # Afficher les premières lignes pour vérifier l’extraction
+
 
