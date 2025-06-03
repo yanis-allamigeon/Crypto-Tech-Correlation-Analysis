@@ -64,6 +64,8 @@ Lien : [Notebook Colab](https://colab.research.google.com/drive/1AaeHV-F3WGE5O1h
 - Les régressions montrent des tendances différentes selon les actifs
 - Le **clustering** révèle une structure en deux univers : crypto et tech
 
+📄 Rapport complet du projet : Rapport_Crypto_Tech_Correlations_Yanis_Allamigeon.docx
+
 ---
 
 ## 🧭 Pour aller plus loin
