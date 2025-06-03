@@ -1,45 +1,89 @@
-# 📊 Crypto-Tech Correlation
+# 📊 Analyse de la corrélation entre crypto-actifs et actions technologiques (2020–2024)
 
-### Analyse des dynamiques entre le marché des cryptomonnaies et les actions technologiques
+---
 
-## 📝 Description
+## 🧠 Présentation
 
-Ce projet explore la corrélation entre **Bitcoin (BTC), Ethereum (ETH)** et les actions des entreprises technologiques majeures (**Nvidia, Tesla, Coinbase…**).  
-L’objectif est d’identifier des tendances communes, des moments de **décorrélation** et d’examiner si ces actifs évoluent de manière similaire en raison de leur nature **technologique et innovante**.
+Ce projet explore les relations financières entre les cryptomonnaies (Bitcoin, Ethereum) et des actions technologiques majeures (Nvidia, Tesla, Coinbase) sur la période 2020–2024.
 
-## 📌 Objectifs
+L’objectif est d’analyser la **corrélation entre ces actifs innovants**, d’en observer l’évolution dans le temps, et d’identifier les différences de comportement selon les contextes de marché (Bull vs Bear).
 
-- 📈 Analyser la relation entre **BTC/ETH et les actions tech**
-- 🔍 Identifier des **périodes de corrélation/décorrélation**
-- 📊 Visualiser les **tendances du marché entre 2020 et 2024**
+---
+
+## 🎯 Objectifs de l’étude
+
+- 📈 Mesurer la relation entre BTC/ETH et les actions tech
+- 🔍 Identifier les périodes de corrélation/décorrélation
+- 🐂🐻 Analyser les dynamiques selon les phases de marché (Bull vs Bear)
+- 🧪 Réaliser des tests statistiques (test t de Student)
+- 📉 Modéliser les tendances via des régressions linéaires
+- 🧠 Regrouper les actifs avec du clustering non supervisé (KMeans + PCA)
+
+---
 
 ## 🛠️ Technologies utilisées
 
-- **Python** (Pandas, Matplotlib, Seaborn, NumPy, Scipy)
-- **yFinance** pour l’extraction des données financières
-- **Google Colab** pour le traitement des données
+- Python (Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn, Scipy)
+- yFinance pour l’extraction des données financières
+- Google Colab pour l’exécution du notebook
+- GitHub pour l’hébergement du projet
 
-## 📂 Structure du projet
+---
 
-- 📁 data/        → Contiendra les fichiers de données extraites
-- 📁 notebooks/   → Contiendra les analyses et visualisations en Jupyter Notebook
-- 📁 scripts/     → Contiendra les scripts Python d’extraction et d’analyse
-- 📄 README.md    → Ce fichier !
+## 📁 Structure du projet
 
+```
+📦 Crypto-Tech-Correlation-Analysis
+ ┣ 📁 figures/           → Graphiques générés
+ ┣ 📓 notebook.ipynb      → Analyse complète sur Google Colab
+ ┣ 📑 presentation.pdf    → Présentation académique finale (21 slides)
+ ┣ 📑 presentation.pptx   → Version modifiable PowerPoint
+ ┗ 📄 README.md           → Description du projet
+```
 
-## 🚀 Comment exécuter le projet
+---
 
-- 1️⃣ Clonez le repo :
-git clone https://github.com/ton-github/crypto-tech-correlation.git
+## 🚀 Exécution du projet
 
-- 2️⃣ Lancer l'analyse sur Google Colab
-Ouvrir le fichier .ipynb dans Google Colab.
-Exécuter les cellules pour obtenir les graphiques et analyses.
+1. **Cloner le dépôt** :
+```bash
+git clone https://github.com/yanis-allamigeon/Crypto-Tech-Correlation-Analysis.git
+```
 
-## 📄 Licence
+2. **Ouvrir le notebook sur Google Colab**  
+Lien : [Notebook Colab](https://colab.research.google.com/drive/1AaeHV-F3WGE5O1hNjSKthJAQKoesqr5a)
+
+3. **Exécuter les cellules** pour reproduire l’analyse, les tests statistiques et les visualisations.
+
+---
+
+## 📄 Résultats clés
+
+- Corrélations fortes entre BTC–COIN ; modérées et variables entre BTC–NVDA et ETH–NVDA
+- Corrélations plus élevées en **marché baissier** que haussier (confirmé par tests t)
+- Les régressions montrent des tendances différentes selon les actifs
+- Le **clustering** révèle une structure en deux univers : crypto et tech
+
+---
+
+## 🧭 Pour aller plus loin
+
+- Étendre l’échantillon à d’autres cryptos (BNB, SOL…) et entreprises tech (Meta, Apple…)
+- Intégrer des événements macroéconomiques (inflation, taux directeur…)
+- Appliquer des modèles prédictifs plus complexes (réseaux de neurones, LSTM)
+
+---
+
+## 👨‍🎓 Auteur
+
+**Yanis Allamigeon**  
+Licence 1 Économie – Université de Montpellier (Parcours International)  
+Mars 2025
+
+📧 yanisallamigeon92@gmail.com
+
+---
+
+## 📜 Licence
 
 Projet open-source sous licence MIT
-
-## 📬 Contact
-
-Si tu as des suggestions ou questions, ouvre une issue ou contacte-moi : Yanisallamigeon92@gmail.com
